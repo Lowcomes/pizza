@@ -1,0 +1,31 @@
+.root {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  padding: 10px 30px 10px 50px;
+  width: 350px;
+  border-radius: 15px;
+  transition: all 0.3s;
+  &:focus {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+}
+.logoSvg {
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+.search {
+  position: relative;
+}
+.close {
+  position: absolute;
+  opacity: 0.3;
+  width: 20px;
+  top: 12px;
+  right: 10px;
+
+  &:hover {
+    opacity: 1;
+  }
+}
